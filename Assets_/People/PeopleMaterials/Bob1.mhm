@@ -1,0 +1,32 @@
+# Written by MakeHuman 1.2.0 final
+version v1.2.0
+camera 8.0 334.0 0.05664571215820987 1.0 0.06642636510181073 3.150000000000001
+modifier head/head-age-decr|incr 0.350000
+modifier head/head-fat-decr|incr -0.064000
+modifier head/head-oval 0.119000
+modifier head/head-diamond 0.524000
+modifier torso/torso-scale-horiz-decr|incr -0.588000
+modifier breast/BreastSize 0.500000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Gender 1.000000
+modifier macrodetails/Age 0.452000
+modifier macrodetails/African 0.000000
+modifier macrodetails/Asian 0.000000
+modifier macrodetails/Caucasian 1.000000
+modifier macrodetails-universal/Muscle 0.381000
+modifier macrodetails-universal/Weight 0.302000
+modifier macrodetails-height/Height 0.643000
+modifier macrodetails-proportions/BodyProportions 0.500000
+hair short02 c104cd4a-1edc-43f9-8b94-f63345a44638
+skeleton game_engine.mhskel
+eyebrows eyebrow012 1c16325c-7831-4166-831a-05c5b609c219
+eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
+clothes male_casualsuit03 39864dca-8d5c-4d7c-84ce-c00982e93cb7
+clothes shoes01 6e0c552e-e207-44df-8f70-c9bfdeddd8c6
+clothes shoes03 ad622a26-da1e-4e3c-9f8e-454edf10d504
+clothesHideFaces True
+skinMaterial skins/middleage_caucasian_male/middleage_caucasian_male.mhmat
+material short02 c104cd4a-1edc-43f9-8b94-f63345a44638 short02.mhmat
+material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brown.mhmat
+material eyebrow012 1c16325c-7831-4166-831a-05c5b609c219 eyebrow012.mhmat
+subdivide False
