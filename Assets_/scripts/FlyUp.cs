@@ -13,6 +13,6 @@ public class FlyUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, (2 * Time.deltaTime), 0);
+        transform.Translate(0, (4 * Time.deltaTime), 0);
     }
 }

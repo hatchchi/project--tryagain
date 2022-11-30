@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateVortex : MonoBehaviour
 {
-    
+  
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,8 @@ public class RotateVortex : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 50 * Time.deltaTime, 0);
+        
+            transform.Rotate(0, 50 * Time.deltaTime, 0);
+        
     }
 }

@@ -48,7 +48,7 @@ public class BeamMeUp : MonoBehaviour
             //timing
             opacity = opacity + (.5f * Time.deltaTime);
 
-            Debug.Log("GOING UP opactiy____" + opacity);
+            //Debug.Log("GOING UP opactiy____" + opacity);
 
         }
 
@@ -56,7 +56,7 @@ public class BeamMeUp : MonoBehaviour
         if ((opacity >= 0.999) && (fading == false))
         {
             fading = true;
-            Debug.Log("changed fading to true");
+            //Debug.Log("changed fading to true");
             Invoke("turnOffContainer", 1f);
         }
 
@@ -68,8 +68,8 @@ public class BeamMeUp : MonoBehaviour
         //timing
          intensity = intensity - (0.8f * Time.deltaTime);
 
-         Debug.Log("GOING DOWN intensity____" + intensity);
-            Debug.Log("fading is___" + fading);
+         //Debug.Log("GOING DOWN intensity____" + intensity);
+            //Debug.Log("fading is___" + fading);
         }
 
         

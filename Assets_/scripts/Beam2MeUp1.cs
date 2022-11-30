@@ -40,7 +40,7 @@ public class Beam2MeUp1 : MonoBehaviour
                 tempColor.a = opacity;
                 mat.color = tempColor;
 
-                Debug.Log("tempColor.a___" + tempColor.a);
+                //Debug.Log("tempColor.a___" + tempColor.a);
                 opacity = opacity + (.1f * Time.deltaTime);
             
             }

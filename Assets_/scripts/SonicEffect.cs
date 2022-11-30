@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TardisEffect : MonoBehaviour
+public class SonicEffect : MonoBehaviour
 {
  float opacity;
  Color c;

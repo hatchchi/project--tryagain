@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TardisEffect : MonoBehaviour
+public class DriverTardisEffect : MonoBehaviour
 {
- float opacity;
+
+    public GameObject realDriver;
+    public GameObject tempDriver;
+
+    float opacity;
  Color c;
     Material mat;
     Color tempColor;
@@ -56,7 +60,12 @@ public class TardisEffect : MonoBehaviour
             else
             {
                 myLight.intensity = (40 -(opacity * 40));
+                realDriver.SetActive(true);
                 
+            }
+            if (opacity >= 0.99)
+                {
+                tempDriver.SetActive(false);
             }
         }
 
